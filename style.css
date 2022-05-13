@@ -1,0 +1,17 @@
+nav {
+    background-color:auto;
+    padding: 30px;
+    
+}
+nav ul {
+    list-style-type: center ;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    font-size: 2em;
+margin-left: 30px;
+text-decoration: auto;
+}
