@@ -1,6 +1,27 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(142, 230, 230);
+    text-align: center;
+   
+    
+}
+
+/* .responsive {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+} */
+ .box {
+     background-image: url(./img/Poker1.JPG);
+
+}
+
 nav {
-    background-color:auto;
+    
     padding: 30px;
+    background-image: image url(./img/NYC1.JPG);
     
 }
 nav ul {
