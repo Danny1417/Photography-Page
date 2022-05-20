@@ -2,37 +2,81 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #123;
+    background-color: #a997df;
     text-align: center;
 }
 
-
-/* .responsive {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-} */
-
-.box {
-    background-image: url(./img/Poker1.JPG);
+#responsive {
+    display: flex;
+    width: 70%;
+    margin: auto;
 }
 
-nav {
-    padding: 30px;
-    background-image: image url(./img/NYC1.JPG);
-}
-
-nav ul {
-    list-style-type: center;
-    text-align: center;
+#top-nav {
+    font-size: 2rem;
+    margin-left: 50px;
+    text-decoration: auto;
 }
 
 nav li {
     display: inline-flex;
 }
 
-nav a {
-    font-size: 2em;
-    margin-left: 30px;
-    text-decoration: auto;
+li:hover {
+    background-color: rgb(52, 240, 59);
+}
+
+#box {
+    font-size: 4rem;
+}
+
+body {
+    background: rgba(146, 113, 191, 0.7);
+}
+
+.center {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#cloud {
+    background: rgb(122, 67, 67);
+    width: 300px;
+    height: 100px;
+    border-radius: 150px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    animation: move 3s infinite;
+}
+
+#cloud:after {
+    content: '';
+    background: rgb(56, 147, 25);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -50px;
+    left: 50px;
+}
+
+#cloud:before {
+    content: '';
+    background: rgb(13, 43, 65);
+    position: absolute;
+    width: 170px;
+    height: 150px;
+    border-radius: 50%;
+    top: -90px;
+    right: 40px;
+}
+
+@keyframes move {
+    0% {
+        transform: translatex(0);
+    }
+    50% {
+        transform: translatex(-40px);
+    }
 }
