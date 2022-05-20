@@ -2,37 +2,37 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(142, 230, 230);
+    background-color: #123;
     text-align: center;
-   
-    
 }
+
 
 /* .responsive {
     width: 100%;
     height: auto;
     max-width: 100%;
 } */
- .box {
-     background-image: url(./img/Poker1.JPG);
 
+.box {
+    background-image: url(./img/Poker1.JPG);
 }
 
 nav {
-    
     padding: 30px;
     background-image: image url(./img/NYC1.JPG);
-    
 }
+
 nav ul {
-    list-style-type: center ;
+    list-style-type: center;
     text-align: center;
 }
+
 nav li {
     display: inline-flex;
 }
+
 nav a {
     font-size: 2em;
-margin-left: 30px;
-text-decoration: auto;
+    margin-left: 30px;
+    text-decoration: auto;
 }
