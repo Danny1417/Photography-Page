@@ -1,7 +1,25 @@
+* {
+    border: 2px solid black;
+    /* height: 300px; */
+}
+
 #responsive {
+    position: sticky;
+    top: 0px;
     display: flex;
     width: 70%;
-    margin: auto;
+    margin-top: 10px;
+    margin-left: 71%;
+    opacity: 0.9;
+    max-width: 700px;
+    height: auto;
+}
+
+.logo {
+    border-radius: 100%;
+    display: flex;
+    width: 100px;
+    height: 100px;
 }
 
 #top-nav {
@@ -20,6 +38,16 @@ li:hover {
 
 #box {
     font-size: 4rem;
+    margin: 2px;
+}
+
+.body-img {
+    width: 70%;
+    max-width: 90px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 body {
@@ -27,12 +55,13 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    height: 500px;
 }
 
 .center {
     position: absolute;
-    top: 55%;
-    left: 20%;
+    top: 20%;
+    left: 55%;
     transform: translate(-50%, -50%);
 }
 
@@ -72,6 +101,6 @@ body {
         transform: translatex(0);
     }
     50% {
-        transform: translatex(-40px);
+        transform: translatex(40px);
     }
 }
